@@ -15,8 +15,8 @@ Om component options (with :opts key) must be a map, having the keys
 
 
 ##Usage example
-`
-(def input-data
+
+`(def input-data
      {:labels   ['Mon' 'Tue' 'Wed' 'Thu' 'Fri']
       :series   [[1 2 3 4 5]]})
 
@@ -26,7 +26,7 @@ Om component options (with :opts key) must be a map, having the keys
     {:constructor (.-Line js/Chartist)
      :js          {:className   "ct-chart"}
      :graph-opts  {:width 500
-                   :height 300}}})
-`
+                   :height 300}}})`
+
 
 
